@@ -7,12 +7,13 @@ from python_speech_features import delta
 from python_speech_features import logfbank
 import scipy.io.wavfile as wav
 
-(rate,sig) = wav.read("english.wav")
-mfcc_feat = mfcc(sig,rate)
+(rate,sig) = wav.read("butterfly.wav")
+print(sig[1180720:])
+mfcc_feat = mfcc(sig,rate,nfft=2048)
 d_mfcc_feat = delta(mfcc_feat, 2)
-#fbank_feat = logfbank(sig,rate)
-V = spr.bsr_matrix(logfbank(sig,rate))
-
+fbank_feat = logfbank(sig,rate,nfft=2048)
+V = spr.bsr_matrix(logfbank(sig,rate,nfft=2048))
+print(logfbank(sig,rate,nfft=2048))
 
 nmf = nimfa.Nmf(V, max_iter=200, rank=2, update='euclidean', objective='fro')
 nmf_fit = nmf()
