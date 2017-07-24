@@ -6,15 +6,18 @@ from python_speech_features import mfcc
 from python_speech_features import delta
 from python_speech_features import logfbank
 import scipy.io.wavfile as wav
+import os
 
+#print(os.)
 (rate,sig) = wav.read("english.wav")
-mfcc_feat = mfcc(sig,rate)
+
+mfcc_feat = mfcc(sig,rate,nfft=1000)
 d_mfcc_feat = delta(mfcc_feat, 2)
 #fbank_feat = logfbank(sig,rate)
 V = spr.bsr_matrix(logfbank(sig,rate))
-
-
-nmf = nimfa.Nmf(V, max_iter=200, rank=2, update='euclidean', objective='fro')
+(x,y) = V.shape
+print(V.shape)
+nmf = nimfa.Nmf(V, max_iter=200, rank=x, update='euclidean', objective='fro')
 nmf_fit = nmf()
 
 print(nmf_fit)
