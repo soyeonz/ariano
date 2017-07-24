@@ -1,0 +1,3373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapdata>
+<!--L,0 -->
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 /0은 온음  -->
+		<octave>1</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>1</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>1</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>1</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>1</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>1</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>1</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>2</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>2</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>2</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>2</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>2</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>2</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>2</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>3</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>3</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>3</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>3</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>3</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>3</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>3</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>4</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>4</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>4</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>4</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>4</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>4</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>4</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>5</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>5</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>5</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>5</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>5</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>5</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>5</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>6</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>6</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>6</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>6</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>6</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>6</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>6</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>7</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>7</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>7</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>7</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>7</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>7</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>7</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>8</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>8</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>8</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>8</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>8</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>8</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>0</beat>
+		<octave>8</octave>
+		<order>B</order>
+	</cube>
+<!--L,2 -->
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>1</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>1</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>1</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>1</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>1</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>1</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>1</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>2</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>2</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>2</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>2</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>2</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>2</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>2</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>3</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>3</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>3</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>3</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>3</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>3</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>3</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>4</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>4</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>4</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>4</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>4</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>4</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>4</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>5</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>5</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>5</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>5</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>5</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>5</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>5</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>6</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>6</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>6</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>6</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>6</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>6</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>6</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>7</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>7</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>7</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>7</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>7</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>7</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>7</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>8</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>8</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>8</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>8</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>8</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>8</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>2</beat>
+		<octave>8</octave>
+		<order>B</order>
+	</cube>
+<!-- L,4 -->
+<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>1</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>1</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>1</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>1</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>1</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>1</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>1</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>2</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>2</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>2</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>2</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>2</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>2</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>2</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>3</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>3</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>3</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>3</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>3</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>3</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>3</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>4</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>4</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>4</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>4</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>4</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>4</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>4</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>5</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>5</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>5</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>5</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>5</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>5</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>5</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>6</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>6</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>6</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>6</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>6</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>6</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>6</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>7</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>7</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>7</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>7</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>7</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>7</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>7</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>8</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>8</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>8</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>8</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>8</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>8</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>4</beat>
+		<octave>8</octave>
+		<order>B</order>
+	</cube>
+<!-- L,8 -->
+<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>1</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>1</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>1</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>1</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>1</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>1</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>1</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>2</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>2</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>2</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>2</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>2</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>2</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>2</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>3</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>3</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>3</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>3</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>3</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>3</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>3</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>4</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>4</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>4</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>4</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>4</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>4</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>4</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>5</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>5</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>5</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>5</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>5</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>5</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>5</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>6</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>6</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>6</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>6</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>6</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>6</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>6</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>7</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>7</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>7</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>7</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>7</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>7</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>7</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>8</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>8</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>8</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>8</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>8</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>8</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>8</beat>
+		<octave>8</octave>
+		<order>B</order>
+	</cube>
+<!-- L,16 -->
+<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>1</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>1</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>1</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>1</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>1</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>1</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>1</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>2</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>2</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>2</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>2</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>2</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>2</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>2</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>3</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>3</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>3</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>3</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>3</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>3</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>3</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>4</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>4</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>4</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>4</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>4</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>4</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>4</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>5</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>5</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>5</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>5</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>5</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>5</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>5</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>6</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>6</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>6</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>6</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>6</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>6</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>6</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>7</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>7</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>7</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>7</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>7</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>7</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>7</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>L</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>8</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>8</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>8</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>8</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>8</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>8</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>L</time>
+		<beat>16</beat>
+		<octave>8</octave>
+		<order>B</order>
+	</cube>
+<!-- W -->
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 /0은 온음  -->
+		<octave>1</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>1</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>1</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>1</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>1</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>1</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>1</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>2</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>2</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>2</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>2</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>2</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>2</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>2</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>3</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>3</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>3</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>3</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>3</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>3</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>3</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>4</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>4</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>4</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>4</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>4</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>4</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>4</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>5</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>5</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>5</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>5</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>5</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>5</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>5</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>6</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>6</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>6</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>6</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>6</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>6</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>6</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>7</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>7</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>7</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>7</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>7</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>7</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>7</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>0</beat><!-- 박자 -->
+		<octave>8</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>8</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>8</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>8</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>8</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>8</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>0</beat>
+		<octave>8</octave>
+		<order>B</order>
+	</cube>
+<!--W,2 -->
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>1</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>1</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>1</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>1</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>1</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>1</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>1</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>2</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>2</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>2</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>2</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>2</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>2</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>2</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>3</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>3</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>3</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>3</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>3</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>3</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>3</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>4</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>4</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>4</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>4</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>4</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>4</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>4</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>5</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>5</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>5</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>5</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>5</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>5</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>5</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>6</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>6</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>6</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>6</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>6</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>6</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>6</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>7</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>7</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>7</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>7</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>7</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>7</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>7</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>2</beat><!-- 박자 -->
+		<octave>8</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>8</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>8</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>8</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>8</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>8</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>2</beat>
+		<octave>8</octave>
+		<order>B</order>
+	</cube>
+<!-- W,4 -->
+<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>1</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>1</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>1</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>1</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>1</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>1</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>1</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>2</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>2</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>2</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>2</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>2</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>2</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>2</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>3</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>3</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>3</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>3</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>3</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>3</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>3</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>4</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>4</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>4</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>4</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>4</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>4</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>4</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>5</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>5</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>5</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>5</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>5</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>5</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>5</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>6</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>6</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>6</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>6</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>6</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>6</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>6</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>7</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>7</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>7</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>7</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>7</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>7</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>7</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>4</beat><!-- 박자 -->
+		<octave>8</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>8</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>8</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>8</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>8</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>8</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>4</beat>
+		<octave>8</octave>
+		<order>B</order>
+	</cube>
+<!-- W,8 -->
+<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>1</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>1</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>1</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>1</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>1</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>1</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>1</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>2</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>2</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>2</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>2</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>2</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>2</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>2</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>3</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>3</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>3</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>3</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>3</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>3</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>3</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>4</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>4</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>4</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>4</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>4</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>4</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>4</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>5</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>5</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>5</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>5</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>5</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>5</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>5</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>6</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>6</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>6</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>6</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>6</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>6</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>6</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>7</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>7</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>7</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>7</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>7</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>7</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>7</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>8</beat><!-- 박자 -->
+		<octave>8</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>8</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>8</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>8</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>8</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>8</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>8</beat>
+		<octave>8</octave>
+		<order>B</order>
+	</cube>
+<!-- W,16 -->
+<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>1</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>1</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>1</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>1</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>1</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>1</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>1</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>2</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>2</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>2</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>2</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>2</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>2</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>2</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>3</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>3</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>3</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>3</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>3</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>3</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>3</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>4</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>4</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>4</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>4</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>4</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>4</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>4</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>5</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>5</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>5</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>5</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>5</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>5</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>5</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>6</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>6</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>6</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>6</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>6</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>6</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>6</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>7</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>7</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>7</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>7</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>7</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>7</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>7</octave>
+		<order>B</order>
+	</cube>
+	<cube><!--1개의 묶음 -->
+		<time>W</time><!-- 음표또는 쉼표 -->
+		<beat>16</beat><!-- 박자 -->
+		<octave>8</octave><!-- 옥타브 -->
+		<order>C</order><!-- 음 -->
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>8</octave>
+		<order>D</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>8</octave>
+		<order>E</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>8</octave>
+		<order>F</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>8</octave>
+		<order>G</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>8</octave>
+		<order>A</order>
+	</cube>
+	<cube>
+		<time>W</time>
+		<beat>16</beat>
+		<octave>8</octave>
+		<order>B</order>
+	</cube>
+</mapdata>
