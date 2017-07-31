@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/02_AR_Play/02_AR_Play.unity
+  isLoaded: 1
+  isActive: 1
