@@ -1,11 +1,31 @@
 import tensorflow as tf
 import numpy as np
 import pandas as pd
+
+#example.py
+import scipy.sparse as spr
+import nimfa
+from python_speech_features import mfcc
+from python_speech_features import delta
+from python_speech_features import logfbank
+import scipy.io.wavfile as wav
+import os
+
 np.random.seed(0)
 
-A_orig = np.array([[3, 4, 5, 2],
-                   [4, 4, 3, 3],
-                   [5, 5, 4, 4]], dtype=np.float32).T
+# A_orig = np.array([[3, 4, 5, 2],
+#                    [4, 4, 3, 3],
+#                    [5, 5, 4, 4]], dtype=np.float32).T
+
+#example.py
+(rate,sig) = wav.read("butterfly.wav")
+print(sig[1180720:])
+mfcc_feat = mfcc(sig,rate,nfft=2048)
+d_mfcc_feat = delta(mfcc_feat, 2)
+fbank_feat = logfbank(sig,rate,nfft=2048)
+#A_orig = spr.bsr_matrix(logfbank(sig,rate,nfft=2048))
+
+A_orig = np.array(logfbank(sig,rate,nfft=2048), dtype=np.float32).T
 
 A_orig_df = pd.DataFrame(A_orig)
 
