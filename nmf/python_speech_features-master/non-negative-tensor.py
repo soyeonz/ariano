@@ -9,9 +9,9 @@ A_orig = np.array([[3, 4, 5, 2],
 
 A_orig_df = pd.DataFrame(A_orig)
 
-#A_orig_df #(4 users, 3 movies)
+A_orig_df #(4 users, 3 movies)
 
-print(A_orig_df)
+print('A_orig_df', A_orig_df)
 
 A_df_masked = A_orig_df.copy()
 A_df_masked.iloc[0,0]=np.NAN
