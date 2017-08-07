@@ -64,11 +64,12 @@ WH = tf.matmul(W, H)
 cost = tf.reduce_sum(tf.pow(tf.boolean_mask(A, tf_mask) - tf.boolean_mask(WH, tf_mask), 2))
 
 # Learning rate
-lr = 0.001
+lr = 0.0001
 # Number of steps
 steps = 1000
 train_step = tf.train.GradientDescentOptimizer(lr).minimize(cost)
 init = tf.initialize_all_variables()
+
 
 # Clipping operation. This ensure that W and H learnt are non-negative
 clip_W = W.assign(tf.maximum(tf.zeros_like(W), W))
@@ -87,3 +88,7 @@ with tf.Session() as sess:
     learnt_W = sess.run(W)
     learnt_H = sess.run(H)
 
+print("learn_W ->")
+print(learnt_W)
+print("learn_H ->")
+print(learnt_H)
