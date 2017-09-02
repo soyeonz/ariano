@@ -30,9 +30,9 @@ A_orig = np.fabs(A_orig)
 
 A_orig_df = pd.DataFrame(A_orig)
 
-#A_orig_df #(4 users, 3 movies)
+A_orig_df #(4 users, 3 movies)
 
-print(A_orig_df)
+print('A_orig_df', A_orig_df)
 
 A_df_masked = A_orig_df.copy()
 A_df_masked.iloc[0,0]=np.NAN
@@ -71,6 +71,7 @@ steps = 1000
 train_step = tf.train.GradientDescentOptimizer(lr).minimize(cost)
 init = tf.initialize_all_variables()
 
+
 # Clipping operation. This ensure that W and H learnt are non-negative
 clip_W = W.assign(tf.maximum(tf.zeros_like(W), W))
 clip_H = H.assign(tf.maximum(tf.zeros_like(H), H))
@@ -90,6 +91,7 @@ with tf.Session() as sess:
             print("*"*40)
     learnt_W = sess.run(W)
     learnt_H = sess.run(H)
+
     print("W -")
     print(learnt_W)
     print("H -")
