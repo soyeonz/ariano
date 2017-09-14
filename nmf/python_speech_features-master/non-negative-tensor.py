@@ -11,8 +11,7 @@ from python_speech_features import logfbank
 import scipy.io.wavfile as wav
 import os
 
-np.random.seed(0)
-
+#np.random.seed(0)
 # A_orig = np.array([[3, 4, 5, 2],
 #                    [4, 4, 3, 3],
 #                    [5, 5, 4, 4]], dtype=np.float32).T
@@ -79,6 +78,7 @@ clip_H = H.assign(tf.maximum(tf.zeros_like(H), H))
 clip = tf.group(clip_W, clip_H)
 merged = tf.merge_all_summaries()
 
+
 steps = 1000
 with tf.Session() as sess:
     sess.run(init)
@@ -92,10 +92,10 @@ with tf.Session() as sess:
     learnt_W = sess.run(W)
     learnt_H = sess.run(H)
 
-print("W -")
-print(learnt_W)
-print("H -")
-print(learnt_H)
-summary = sess.run(merged, feed_dict=)
-writer.add_summary(summary, i)
-summary_writer.flush()
+    print("W -")
+    print(learnt_W)
+    print("H -")
+    print(learnt_H)
+    #summary = sess.run(merged, feed_dict=)
+    # writer.add_summary(summary, i)
+    # summary_writer.flush()
