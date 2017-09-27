@@ -3,7 +3,7 @@ from scipy.fftpack import fft
 from scipy.io import wavfile
 import numpy as np
 
-fs, data = wavfile.read("butterfly.wav")
+fs, data = wavfile.read("E1_bass.wav")
 
 print(fs)
 print(data)

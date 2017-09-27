@@ -3,7 +3,7 @@ import scipy.io.wavfile as wavfile
 import numpy as np
 import pylab as pl
 
-rate, data = wavfile.read("butterfly.wav")
+rate, data = wavfile.read("E1_bass.wav")
 # print(data)
 t = np.arange(len(data[:,0]))*1.0/rate
 print(data)
