@@ -1,10 +1,11 @@
-
+#part 1
 import scipy.io.wavfile as wavfile
 import numpy as np
 import pylab as pl
+import librosa
 
-rate, data = wavfile.read("Butterfly.wav")
-t = np.arange(len(data[:,0]))*1.0/rate
+rate, data = wavfile.read("E1_bass.wav")
+t = np.arange(len(data[:]))*1.0/rate
 
 #Original Signal graph
 fig = pl.figure()
@@ -12,24 +13,42 @@ g1 = fig.add_subplot(221)
 g1.set_title("Original signal")
 g1.plot(data)
 
-
-for i in range(0,180778):
-  if(data[i,1]>0):
-      start = i
-      break
-print(start)
-temp = np.abs(np.fft.rfft(data[start:180778,1]))
-
-p = [20*np.log10(x) if x>=1 else 1 for x in temp]
-
-
-f = np.linspace(0, rate/2.0, len(p))
+#part 2 : Voice activity detector
+sample_count = 2048
+# y : time series / sr : sampling frequency
+y, sr = librosa.load("E1_bass.wav")
+hop_l = 64
+frame_arr = librosa.util.frame(y, frame_length=sample_count, hop_length=hop_l)
+# print(frame_arr)
+frame_length, frame_column = frame_arr.shape
+frame_arr_avg = np.ndarray(shape=(frame_length),dtype=float)
+for i in range(0, frame_length):
+    frame_arr_avg[i] = np.average(frame_arr[i, :])
 
 g2 = fig.add_subplot(222)
-g2.set_title("FFT")
+g2.set_title("Frame Average")
+g2.plot(frame_arr_avg)
 
-g2.plot(f, p)
-# g2.xlabel("Frequency(Hz)")
-# g2.ylabel("Power(dB)")
+#part 3 : stft
+
+stft_arr_abs = np.abs(librosa.stft(frame_arr_avg))
+print(stft_arr_abs)
+stft_row, stft_column = stft_arr_abs.shape
+#p = [20*np.log10(x) if x>=1 else 1 for x in stft_arr_abs[i, :] ]
+for i in range(0, stft_row):
+    x = stft_arr_abs[i, :]
+    p = librosa.logamplitude()
+    # p = 20*np.log10(np.maximum(x, 1))
+    # print(p)
+print(p)
+
+#part 4
+f = np.linspace(0, rate/2.0, len(p))
+
+g3 = fig.add_subplot(223)
+g3.set_title("STFT")
+g3.plot(f, p)
+#g3.xlabel("Frequency(Hz)")
+#g3.ylabel("Power(dB)")
 
 pl.show()
