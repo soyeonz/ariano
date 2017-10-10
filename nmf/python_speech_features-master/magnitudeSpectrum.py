@@ -3,6 +3,7 @@ import scipy.io.wavfile as wavfile
 import numpy as np
 import pylab as pl
 import librosa
+
 from time import time
 
 start = time()
@@ -33,6 +34,10 @@ stft_arr_abs = np.abs(librosa.stft(frame_arr_avg))
 print(stft_arr_abs)
 stft_row, stft_column = stft_arr_abs.shape
 
+g3 = fig.add_subplot(223)
+g3.set_title("STFT")
+g3.plot(stft_arr_abs)
+
 #p = [20*np.log10(x) if x>=1 else 1 for x in stft_arr_abs[i, :] ]
 # for i in range(0, stft_row):
 #     x = stft_arr_abs[i, :]
@@ -48,6 +53,7 @@ stft_row, stft_column = stft_arr_abs.shape
 # g3.plot(f, p)
 #g3.xlabel("Frequency(Hz)")
 #g3.ylabel("Power(dB)")
+
 end = time()
 print('Took %.3f seconds' %(end-start))
 
