@@ -6,11 +6,11 @@ import librosa, librosa.display
 plt.rcParams['figure.figsize'] = (14, 5)
 
 #Load an audio file.
-filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/Butterfly.wav'
+filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/butterfly.wav'
 x, sr = librosa.load(filename)
 
 #Play the audio file.
-# ipd.Audio(x, rate=sr,autoplay=True)
+ipd.Audio(x, rate=sr,autoplay=True)
 librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/Butterfly2.wav', x, sr)
 
 #Display the CQT of the signal.
@@ -96,4 +96,5 @@ librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-mast
 
 #Plot the CQT of the synthesized transcription.
 cqt = librosa.cqt(y, sr=sr)
+print abs(cqt)
 librosa.display.specshow(abs(cqt), sr=sr, x_axis='time', y_axis='cqt_note')
