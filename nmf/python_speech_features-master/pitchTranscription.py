@@ -18,7 +18,7 @@ bins_per_octave = 36
 cqt = librosa.cqt(x, sr=sr, n_bins=300, bins_per_octave=bins_per_octave)
 log_cqt = librosa.logamplitude(cqt)
 
-print(cqt.shape)
+# print(cqt.shape)
 
 librosa.display.specshow(log_cqt, sr=sr, x_axis='time', y_axis='cqt_note',
                          bins_per_octave=bins_per_octave)
@@ -43,11 +43,11 @@ onset_samples = librosa.onset.onset_detect(x,
 
 #Let's pad the onsets with the beginning and end of the signal.
 onset_boundaries = numpy.concatenate([[0], onset_samples, [len(x)]])
-print onset_boundaries
+# print onset_boundaries
 
 #Convert the onsets to units of seconds:
 onset_times = librosa.samples_to_time(onset_boundaries, sr=sr)
-print onset_times
+# print onset_times
 
 #Display the results of the onset detection:
 librosa.display.waveplot(x, sr=sr)
@@ -95,5 +95,13 @@ y = numpy.concatenate([
 librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/newButterfly.wav', y, sr)
 
 #Plot the CQT of the synthesized transcription.
-cqt = librosa.cqt(y, sr=sr)
-librosa.display.specshow(abs(cqt), sr=sr, x_axis='time', y_axis='cqt_note')
+# cqt = librosa.cqt(y, sr=sr)
+# librosa.display.specshow(abs(cqt), sr=sr, x_axis='time', y_axis='cqt_note')
+
+#A chroma vector (Wikipedia) (FMP, p. 123) is a typically a 12-element feature vector indicating how much energy of each pitch class, {C, C#, D, D#, E, ..., B}, is present in the signal.
+# hop_length = 512
+# chromagram = librosa.feature.chroma_stft(x, sr=sr, hop_length=bins_per_octave)
+# librosa.display.specshow(chromagram, x_axis='time', y_axis='chroma', hop_length=bins_per_octave)
+chromagram = librosa.feature.chroma_cqt(y, sr=sr)
+print(abs(chromagram))
+print librosa.display.specshow(abs(chromagram), x_axis='time', y_axis='chroma')
