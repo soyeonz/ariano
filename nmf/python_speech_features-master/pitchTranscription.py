@@ -4,7 +4,7 @@ import seaborn
 import numpy, scipy, IPython.display as ipd, matplotlib.pyplot as plt
 import librosa, librosa.display
 from time import time
-from concurrent.futures import ProcessPoolExecutor
+# from concurrent.futures import ProcessPoolExecutor
 # from jitpy import setup
 # setup('<path-to-pypy-home>')
 # from jitpy.wrapper import jittify
@@ -17,6 +17,7 @@ def pitchTranscription():
     filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
     x, sr = librosa.load(filename)
 
+    x, idx = librosa.effects.trim(yt, top_db=10)
 
     #Display the CQT of the signal.
     bins_per_octave = 36
@@ -143,4 +144,3 @@ print('Took %.3f seconds' % (end - start))
     #     # Get the x and y coordinates
     #     y_coords = __mesh_coords(y_axis, y_coords, data.shape[0])
     #     x_coords = __mesh_coords(x_axis, x_coords, data.shape[1])
-
