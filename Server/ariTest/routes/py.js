@@ -26,7 +26,7 @@ router.post('/', upload.single('music'), (req, res) => {
                 console.log('Something Gone Wrong!', err);
             }
             console.log('result is : ', result);
-            res.status(200).send({ result: "success" });
+            res.status(200).send({ message: "success", score:100 });
         });
     } catch (err) {
         console.log('err msg: ', err);

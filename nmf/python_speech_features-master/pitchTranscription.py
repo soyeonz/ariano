@@ -4,7 +4,7 @@ import seaborn
 import numpy, scipy, IPython.display as ipd, matplotlib.pyplot as plt
 import librosa, librosa.display
 from time import time
-# from concurrent.futures import ProcessPoolExecutor
+from concurrent.futures import ProcessPoolExecutor
 # from jitpy import setup
 # setup('<path-to-pypy-home>')
 # from jitpy.wrapper import jittify
@@ -15,7 +15,7 @@ plt.rcParams['figure.figsize'] = (14, 5)
 def pitchTranscription():
     #Load an audio file.
     filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
-    x, sr = librosa.load(filename)
+    yt, sr = librosa.load(filename)
 
     x, idx = librosa.effects.trim(yt, top_db=10)
 
@@ -74,6 +74,7 @@ def pitchTranscription():
         # Find the location of the maximum autocorrelation.
         i = r.argmax()
         f0 = float(sr) / i
+        print(f0)
         return f0
 
     #Step 3: Generate Pure Tone
@@ -107,8 +108,8 @@ def pitchTranscription():
     print(chromagram)
     # librosa.display.specshow(abs(chromagram), x_axis='time', y_axis='chroma', hop_length=hop_length)
 
-# pool = ProcessPoolExecutor(3)
-# result = pool.map(pitchTranscription())
+pool = ProcessPoolExecutor(3)
+result = pool.map(pitchTranscription())
 end = time()
 print('Took %.3f seconds' % (end - start))
 
