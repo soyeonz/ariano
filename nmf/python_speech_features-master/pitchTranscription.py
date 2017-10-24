@@ -6,12 +6,8 @@ import librosa, librosa.display
 plt.rcParams['figure.figsize'] = (14, 5)
 
 #Load an audio file.
-filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/Butterfly.wav'
+filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
 x, sr = librosa.load(filename)
-
-#Play the audio file.
-# ipd.Audio(x, rate=sr,autoplay=True)
-librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/Butterfly2.wav', x, sr)
 
 #Display the CQT of the signal.
 bins_per_octave = 36
@@ -26,8 +22,8 @@ librosa.display.specshow(log_cqt, sr=sr, x_axis='time', y_axis='cqt_note',
 #Step 1: Detect Onsets
 hop_length = 100
 onset_env = librosa.onset.onset_strength(x, sr=sr, hop_length=hop_length)
-plt.plot(onset_env)
-plt.xlim(0, len(onset_env))
+# plt.plot(onset_env)
+# plt.xlim(0, len(onset_env))
 
 #Next, we try to detect onsets. For more details, see librosa.onset.onset_detect and librosa.util.peak_pick.
 onset_samples = librosa.onset.onset_detect(x,
@@ -91,10 +87,17 @@ y = numpy.concatenate([
 ])
 
 #Play the synthesized transcription.
-# ipd.Audio(y, rate=sr, autoplay=True)
-librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/newButterfly.wav', y, sr)
+ipd.Audio(y, rate=sr, autoplay=True)
+librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.wav', y, sr)
+
+
+# test 2
+hop_length = 512
+chromagram = librosa.feature.chroma_cens(x, sr=sr, hop_length=hop_length)
+librosa.display.specshow(abs(chromagram), x_axis='time', y_axis='chroma', hop_length=hop_length)
 
 #Plot the CQT of the synthesized transcription.
+# detection auto tune
 # cqt = librosa.cqt(y, sr=sr)
 # librosa.display.specshow(abs(cqt), sr=sr, x_axis='time', y_axis='cqt_note')
 
@@ -102,6 +105,26 @@ librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-mast
 # hop_length = 512
 # chromagram = librosa.feature.chroma_stft(x, sr=sr, hop_length=bins_per_octave)
 # librosa.display.specshow(chromagram, x_axis='time', y_axis='chroma', hop_length=bins_per_octave)
-chromagram = librosa.feature.chroma_cqt(y, sr=sr)
-print(abs(chromagram))
-print librosa.display.specshow(abs(chromagram), x_axis='time', y_axis='chroma')
+# chromagram = librosa.feature.chroma_cqt(y, sr=sr)
+# print(abs(chromagram))
+# print "\n"
+# librosa.display.specshow(abs(chromagram), x_axis='time', y_axis='chroma')
+
+# chromagram = librosa.feature.chroma_cens(x, sr=sr, hop_length=hop_length)
+# librosa.display.specshow(abs(chromagram), x_axis='time', y_axis='chroma', hop_length=hop_length)
+
+# # test
+# data = abs(chromagram)
+# print data[numpy.isfinite(data)]
+# print "\n"
+# min_p, max_p = 2, 98
+# max_val = numpy.percentile(data, max_p)
+# min_val = numpy.percentile(data, min_p)
+#
+# print(max_val)
+# print(min_val)
+#
+# if min_val >= 0 or max_val <= 0:
+#     # Get the x and y coordinates
+#     y_coords = __mesh_coords(y_axis, y_coords, data.shape[0])
+#     x_coords = __mesh_coords(x_axis, x_coords, data.shape[1])
