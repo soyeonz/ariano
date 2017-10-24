@@ -11,10 +11,21 @@ from concurrent.futures import ProcessPoolExecutor
 start = time()
 plt.rcParams['figure.figsize'] = (14, 5)
 
+frequency = [0, 261.6256, 293.6648, 329.6276, 349.2282, 391.9954, 440.0000, 493.8833]
+butterfly_data = [frequency[5], frequency[3], frequency[3], frequency[4], frequency[2], frequency[2],
+                 frequency[1], frequency[2], frequency[3], frequency[4], frequency[5], frequency[5],
+                 frequency[5], frequency[5], frequency[3], frequency[3], frequency[3], frequency[4],
+                 frequency[2], frequency[2], frequency[1], frequency[3], frequency[5], frequency[5],
+                 frequency[3], frequency[3], frequency[3], frequency[2], frequency[2], frequency[2],
+                 frequency[2], frequency[2], frequency[3], frequency[4], frequency[3], frequency[3],
+                 frequency[3], frequency[3], frequency[3], frequency[4], frequency[5], frequency[5],
+                 frequency[3], frequency[3], frequency[4], frequency[2], frequency[2], frequency[1],
+                 frequency[3], frequency[5], frequency[5], frequency[3], frequency[3], frequency[3]]
+# <<<<<<< HEAD
 # @jittify([int, float], float)
 def pitchTranscription():
     #Load an audio file.
-    filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
+    filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/jinglebells.m4a'
     yt, sr = librosa.load(filename)
 
     x, idx = librosa.effects.trim(yt, top_db=10)
@@ -74,32 +85,38 @@ def pitchTranscription():
         # Find the location of the maximum autocorrelation.
         i = r.argmax()
         f0 = float(sr) / i
-        print(f0)
         return f0
 
     #Step 3: Generate Pure Tone
     #Create a function to generate a pure tone at the specified frequency:
-    def generate_sine(f0, sr, n_duration):
-        n = numpy.arange(n_duration)
-        return 0.2*numpy.sin(2*numpy.pi*f0*n/float(sr))
+    # def generate_sine(f0, sr, n_duration):
+    #     n = numpy.arange(n_duration)
+    #     return 0.2*numpy.sin(2*numpy.pi*f0*n/float(sr))
 
     #Step 4: Put it together
-    #Create a helper function for use in a list comprehension:
     def estimate_pitch_and_generate_sine(x, onset_samples, i, sr):
         n0 = onset_samples[i]
-        n1 = onset_samples[i+1]
+        n1 = onset_samples[i + 1]
         f0 = estimate_pitch(x[n0:n1], sr)
-        return generate_sine(f0, sr, n1-n0)
+        return f0
 
-    #Use a list comprehension to concatenate the synthesized segments:
-    y = numpy.concatenate([
-        estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr)
-        for i in range(len(onset_boundaries)-1)
-    ])
+    n = []
+    for i in range(len(onset_boundaries) - 1):
+        n.append(estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr))
+
+    print "len n"
+    print len(n)
+    print "array n"
+    print n
+    # Use a list comprehension to concatenate the synthesized segments:
+    # y = numpy.concatenate([
+    #     estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr)
+    #     for i in range(len(onset_boundaries)-1)
+    # ])
 
     #Play the synthesized transcription.
-    ipd.Audio(y, rate=sr, autoplay=True)
-    # librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.wav', y, sr)
+    ipd.Audio(n, rate=sr, autoplay=True)
+    librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/new_tutorial.wav', n, sr)
 
 
     # test 2
