@@ -3,9 +3,14 @@ import IPython
 import seaborn
 import numpy, scipy, IPython.display as ipd, matplotlib.pyplot as plt
 import librosa, librosa.display
-import time
+from time import time
 # from concurrent.futures import ProcessPoolExecutor
+# from jitpy import setup
+# setup('<path-to-pypy-home>')
+# from jitpy.wrapper import jittify
+start = time()
 plt.rcParams['figure.figsize'] = (14, 5)
+
 start_time = time.time()
 
 
@@ -150,4 +155,3 @@ print n
 #     # Get the x and y coordinates
 #     y_coords = __mesh_coords(y_axis, y_coords, data.shape[0])
 #     x_coords = __mesh_coords(x_axis, x_coords, data.shape[1])
-
