@@ -7,6 +7,9 @@ import time
 # from concurrent.futures import ProcessPoolExecutor
 plt.rcParams['figure.figsize'] = (14, 5)
 start_time = time.time()
+
+
+
 # pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
 # filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
@@ -76,9 +79,9 @@ def estimate_pitch(segment, sr, fmin=50.0, fmax=2000.0):
 
 #Step 3: Generate Pure Tone
 #Create a function to generate a pure tone at the specified frequency:
-def generate_sine(f0, sr, n_duration):
-    n = numpy.arange(n_duration)
-    return 0.2*numpy.sin(2*numpy.pi*f0*n/float(sr))
+# def generate_sine(f0, sr, n_duration):
+#     n = numpy.arange(n_duration)
+#     return 0.2*numpy.sin(2*numpy.pi*f0*n/float(sr))
 
 #Step 4: Put it together
 #Create a helper function for use in a list comprehension:
@@ -86,26 +89,34 @@ def estimate_pitch_and_generate_sine(x, onset_samples, i, sr):
     n0 = onset_samples[i]
     n1 = onset_samples[i+1]
     f0 = estimate_pitch(x[n0:n1], sr)
-    return generate_sine(f0, sr, n1-n0)
+    return f0
 
 #Use a list comprehension to concatenate the synthesized segments:
-y = numpy.concatenate([
-    estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr)
-    for i in range(len(onset_boundaries)-1)
-])
+# y = numpy.concatenate([
+#     estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr)
+#     for i in range(len(onset_boundaries)-1)
+# ])
+n = []
+for i in range(len(onset_boundaries)-1):
+    n.append(estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr))
+
+print "len n"
+print len(n)
+print "array n"
+print n
 
 #Play the synthesized transcription.
-ipd.Audio(y, rate=sr, autoplay=True)
-librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/buttertter.wav', y, sr)
+# ipd.Audio(y, rate=sr, autoplay=True)
+# librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/buttertter.wav', y, sr)
+#
 
-
-# test 2
-hop_length = 512
-chromagram = librosa.feature.chroma_cens(x, sr=sr, hop_length=hop_length)
-# librosa.display.specshow(abs(chromagram), x_axis='time', y_axis='chroma', hop_length=hop_length)
-
-print("start_time", start_time)
-print("--- %s seconds ---" %(time.time() - start_time))
+# # test 2
+# hop_length = 512
+# chromagram = librosa.feature.chroma_cens(x, sr=sr, hop_length=hop_length)
+# # librosa.display.specshow(abs(chromagram), x_axis='time', y_axis='chroma', hop_length=hop_length)
+#
+# print("start_time", start_time)
+# print("--- %s seconds ---" %(time.time() - start_time))
 
 #Plot the CQT of the synthesized transcription.
 # detection auto tune
