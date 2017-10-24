@@ -3,8 +3,11 @@ import IPython
 import seaborn
 import numpy, scipy, IPython.display as ipd, matplotlib.pyplot as plt
 import librosa, librosa.display
+import time
+from concurrent.futures import ProcessPoolExecutor
 plt.rcParams['figure.figsize'] = (14, 5)
-
+start_time = time.time()
+pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
 filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
 x, sr = librosa.load(filename)
@@ -89,13 +92,16 @@ y = numpy.concatenate([
 
 #Play the synthesized transcription.
 ipd.Audio(y, rate=sr, autoplay=True)
-librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.wav', y, sr)
+# librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.wav', y, sr)
 
 
 # test 2
 hop_length = 512
 chromagram = librosa.feature.chroma_cens(x, sr=sr, hop_length=hop_length)
-librosa.display.specshow(abs(chromagram), x_axis='time', y_axis='chroma', hop_length=hop_length)
+# librosa.display.specshow(abs(chromagram), x_axis='time', y_axis='chroma', hop_length=hop_length)
+
+print("start_time", start_time)
+print("--- %s seconds ---" %(time.time() - start_time))
 
 #Plot the CQT of the synthesized transcription.
 # detection auto tune
