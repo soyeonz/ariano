@@ -4,14 +4,18 @@ import seaborn
 import numpy, scipy, IPython.display as ipd, matplotlib.pyplot as plt
 import librosa, librosa.display
 import time
-from concurrent.futures import ProcessPoolExecutor
+# from concurrent.futures import ProcessPoolExecutor
 plt.rcParams['figure.figsize'] = (14, 5)
 start_time = time.time()
-pool = ProcessPoolExecutor(max_workers=2)
+# pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
-filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
-x, sr = librosa.load(filename)
+# filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
+filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/butterfly2.m4a'
 
+yt, sr = librosa.load(filename)
+
+x, idx = librosa.effects.trim(yt, top_db=10)
+print(librosa.get_duration(yt), librosa.get_duration(x))
 
 #Display the CQT of the signal.
 bins_per_octave = 36
@@ -92,7 +96,7 @@ y = numpy.concatenate([
 
 #Play the synthesized transcription.
 ipd.Audio(y, rate=sr, autoplay=True)
-# librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.wav', y, sr)
+librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/buttertter.wav', y, sr)
 
 
 # test 2
