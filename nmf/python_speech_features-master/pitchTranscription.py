@@ -9,6 +9,7 @@ plt.rcParams['figure.figsize'] = (14, 5)
 filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
 x, sr = librosa.load(filename)
 
+
 #Display the CQT of the signal.
 bins_per_octave = 36
 cqt = librosa.cqt(x, sr=sr, n_bins=300, bins_per_octave=bins_per_octave)
@@ -16,8 +17,8 @@ log_cqt = librosa.logamplitude(cqt)
 
 # print(cqt.shape)
 
-librosa.display.specshow(log_cqt, sr=sr, x_axis='time', y_axis='cqt_note',
-                         bins_per_octave=bins_per_octave)
+# librosa.display.specshow(log_cqt, sr=sr, x_axis='time', y_axis='cqt_note',%
+#                          bins_per_octave=bins_per_octave)
 
 #Step 1: Detect Onsets
 hop_length = 100
@@ -128,3 +129,4 @@ librosa.display.specshow(abs(chromagram), x_axis='time', y_axis='chroma', hop_le
 #     # Get the x and y coordinates
 #     y_coords = __mesh_coords(y_axis, y_coords, data.shape[0])
 #     x_coords = __mesh_coords(x_axis, x_coords, data.shape[1])
+
