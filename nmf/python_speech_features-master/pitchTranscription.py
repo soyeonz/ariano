@@ -8,10 +8,10 @@ plt.rcParams['figure.figsize'] = (14, 5)
 #Load an audio file.
 filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/butterfly.wav'
 x, sr = librosa.load(filename)
-
-#Play the audio file.
-ipd.Audio(x, rate=sr,autoplay=True)
-librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/Butterfly2.wav', x, sr)
+#
+# #Play the audio file.
+# ipd.Audio(x, rate=sr,autoplay=True)
+# librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/Butterfly2.wav', x, sr)
 
 #Display the CQT of the signal.
 bins_per_octave = 36
@@ -20,8 +20,8 @@ log_cqt = librosa.logamplitude(cqt)
 
 # print(cqt.shape)
 
-librosa.display.specshow(log_cqt, sr=sr, x_axis='time', y_axis='cqt_note',
-                         bins_per_octave=bins_per_octave)
+# librosa.display.specshow(log_cqt, sr=sr, x_axis='time', y_axis='cqt_note',%
+#                          bins_per_octave=bins_per_octave)
 
 #Step 1: Detect Onsets
 hop_length = 100
@@ -92,16 +92,17 @@ y = numpy.concatenate([
 
 #Play the synthesized transcription.
 # ipd.Audio(y, rate=sr, autoplay=True)
-librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/newButterfly.wav', y, sr)
+librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/newButterfly.wav', y, sr)
 
 #Plot the CQT of the synthesized transcription.
-# cqt = librosa.cqt(y, sr=sr)
-# librosa.display.specshow(abs(cqt), sr=sr, x_axis='time', y_axis='cqt_note')
+cqt = librosa.cqt(y, sr=sr)
+librosa.display.specshow(abs(cqt), sr=sr, x_axis='time', y_axis='cqt_note')
+# print('CQT')
+# print(abs(cqt))
+# print(sr)
 
 #A chroma vector (Wikipedia) (FMP, p. 123) is a typically a 12-element feature vector indicating how much energy of each pitch class, {C, C#, D, D#, E, ..., B}, is present in the signal.
-# hop_length = 512
-# chromagram = librosa.feature.chroma_stft(x, sr=sr, hop_length=bins_per_octave)
-# librosa.display.specshow(chromagram, x_axis='time', y_axis='chroma', hop_length=bins_per_octave)
-chromagram = librosa.feature.chroma_cqt(y, sr=sr)
-print(abs(chromagram))
-print librosa.display.specshow(abs(chromagram), x_axis='time', y_axis='chroma')
+hop_length = 512
+chromagram = librosa.feature.chroma_stft(x, sr=sr, hop_length=bins_per_octave)
+print(chromagram.shape)
+librosa.display.specshow(chromagram, x_axis='time', y_axis='chroma', hop_length=bins_per_octave)
