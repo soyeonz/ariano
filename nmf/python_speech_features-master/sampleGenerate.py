@@ -21,7 +21,7 @@ music_map = {
 # pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
 # filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
-filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/samesame.mp4'
+filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/butterfly2.m4a'
 
 yt, sr = librosa.load(filename)
 
@@ -30,7 +30,6 @@ print(librosa.get_duration(yt), librosa.get_duration(x))
 
 #Display the CQT of the signal.
 bins_per_octave = 36
-# cqt = librosa.cqt(x, sr=sr, n_bins=300, bins_per_octave=bins_per_octave)
 chromagram = librosa.feature.chroma_cens(x, sr=sr, bins_per_octave=bins_per_octave)
 log_cqt = librosa.logamplitude(chromagram)
 
@@ -88,9 +87,9 @@ def estimate_pitch(segment, sr, fmin=50.0, fmax=2000.0):
 
 #Step 3: Generate Pure Tone
 #Create a function to generate a pure tone at the specified frequency:
-# def generate_sine(f0, sr, n_duration):
-#     n = numpy.arange(n_duration)
-#     return 0.2*numpy.sin(2*numpy.pi*f0*n/float(sr))
+def generate_sine(f0, sr, n_duration):
+    n = numpy.arange(n_duration)
+    return 0.2*numpy.sin(2*numpy.pi*f0*n/float(sr))
 
 #Step 4: Put it together
 #Create a helper function for use in a list comprehension:
@@ -98,37 +97,27 @@ def estimate_pitch_and_generate_sine(x, onset_samples, i, sr):
     n0 = onset_samples[i]
     n1 = onset_samples[i+1]
     f0 = estimate_pitch(x[n0:n1], sr)
-    return f0
+    return generate_sine(f0, sr, n1-n0)
 
 #Use a list comprehension to concatenate the synthesized segments:
-# y = numpy.concatenate([
-#     estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr)
-#     for i in range(len(onset_boundaries)-1)
-# ])
-n = []
-for i in range(len(onset_boundaries)-1):
-    n.append(estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr))
-# length = 0
-# if len(n) <= len(music_map['samesame']):
-#     length = len(n)
-# else:
-#     length = len(music_map['samesame'])
+y = numpy.concatenate([
+    estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr)
+    for i in range(len(onset_boundaries)-1)
+])
+# n = []
+# for i in range(len(onset_boundaries)-1):
+#     n.append(estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr))
 #
-# print( '-----diff-------')
-# sum = 0
-# for i in range (length):
-#     diff = abs(music_map['samesame'][i] - n[i])
-#     print diff
-#     sum += diff
-#
-# print('avg of sum=?')
-# print sum/length
 
+# print "len n"
+# print len(n)
+# print "array n"
+# print n
 
 #Play the synthesized transcription.
 # ipd.Audio(y, rate=sr, autoplay=True)
-# librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/buttertter.wav', y, sr)
-#
+librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/butterfly_new_new.wav', y, sr)
+
 
 # # test 2
 # hop_length = 512
