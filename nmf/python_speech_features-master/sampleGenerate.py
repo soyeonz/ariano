@@ -21,15 +21,27 @@ music_map = {
 # pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
 # filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
-filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/butterfly2.m4a'
+filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/butterfly.wav'
 
-yt, sr = librosa.load(filename)
+yt, sr = librosa.load(filename, sr=22050, mono=True)
 
 x, idx = librosa.effects.trim(yt, top_db=10)
 print(librosa.get_duration(yt), librosa.get_duration(x))
 
+x = x / numpy.max(numpy.abs(x))
+
+# mean_value = numpy.mean(abs(fft_values))
+# threshold = 1.1*mean_value
+#
+# fft_values[abs(fft_values) < threshold] = 0
+#
+# filteredSample = numpy.fft.ifft(fft_values)
+#
+# x= filteredSample
 #Display the CQT of the signal.
 bins_per_octave = 36
+# cqt = librosa.cqt(x, sr=sr, n_bins=300, bins_per_octave=bins_per_octave)
+# log_cqt = librosa.logamplitude(cqt)
 chromagram = librosa.feature.chroma_cens(x, sr=sr, bins_per_octave=bins_per_octave)
 log_cqt = librosa.logamplitude(chromagram)
 
@@ -116,7 +128,7 @@ y = numpy.concatenate([
 
 #Play the synthesized transcription.
 # ipd.Audio(y, rate=sr, autoplay=True)
-librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/butterfly_new_new.wav', y, sr)
+librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/oldbutter.wav', y, sr)
 
 
 # # test 2

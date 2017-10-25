@@ -12,27 +12,44 @@ start = time()
 plt.rcParams['figure.figsize'] = (14, 5)
 
 # start_time = time.time()
+frequency = [0, 261.6256, 293.6648, 329.6276, 349.2282, 391.9954, 440.0000, 493.8833]
 
 music_map = {
-    'samesame': [261, 329, 391, 261, 329, 391, 440, 440, 440, 391, 349, 349, 349, 329, 329, 329, 293, 293, 293, 261, 261, 329, 391, 261, 329, 391, 440, 440, 440, 391, 349, 349, 349, 329, 329, 329, 293, 293, 293, 261]
+    'samesame': [261, 329, 391, 261, 329, 391, 440, 440, 440, 391, 349, 349, 349, 329, 329, 329, 293, 293, 293, 261, 261, 329, 391, 261, 329, 391, 440, 440, 440, 391, 349, 349, 349, 329, 329, 329, 293, 293, 293, 261],
+    'butterfly': [frequency[5], frequency[3], frequency[3], frequency[4], frequency[2], frequency[2],
+                 frequency[1], frequency[2], frequency[3], frequency[4], frequency[5], frequency[5],
+                 frequency[5], frequency[5], frequency[3], frequency[3], frequency[3], frequency[4],
+                 frequency[2], frequency[2], frequency[1], frequency[3], frequency[5], frequency[5],
+                 frequency[3], frequency[3], frequency[3], frequency[2], frequency[2], frequency[2],
+                 frequency[2], frequency[2], frequency[3], frequency[4], frequency[3], frequency[3],
+                 frequency[3], frequency[3], frequency[3], frequency[4], frequency[5], frequency[5],
+                 frequency[3], frequency[3], frequency[4], frequency[2], frequency[2], frequency[1],
+                 frequency[3], frequency[5], frequency[5], frequency[3], frequency[3], frequency[3]]
 }
-
 
 # pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
 # filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
 filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/samesame.mp4'
 
-yt, sr = librosa.load(filename)
+yt, sr = librosa.load(filename, sr=22050, mono=True)
+librosa.
 
 x, idx = librosa.effects.trim(yt, top_db=10)
 print(librosa.get_duration(yt), librosa.get_duration(x))
+#
+# def pcen(E, alpha=0.98, delta=2, r=0.5, s=0.025, eps=1e-6):
+#     M = scipy.signal.lfilter([s], [1, s - 1], E)
+#     smooth = (eps + M)**(-alpha)
+#     return (E * smooth + delta)**r - delta**r
+
+x = x / numpy.max(numpy.abs(x))
 
 #Display the CQT of the signal.
 bins_per_octave = 36
-# cqt = librosa.cqt(x, sr=sr, n_bins=300, bins_per_octave=bins_per_octave)
-chromagram = librosa.feature.chroma_cens(x, sr=sr, bins_per_octave=bins_per_octave)
-log_cqt = librosa.logamplitude(chromagram)
+# x = abs(librosa.feature.chroma_cqt(xx, sr=sr, bins_per_octave=bins_per_octave))
+cqt = librosa.cqt(x, sr=sr, n_bins=300, bins_per_octave=bins_per_octave)
+log_cqt = librosa.logamplitude(cqt)
 
 # print(cqt.shape)
 
@@ -103,26 +120,31 @@ def estimate_pitch_and_generate_sine(x, onset_samples, i, sr):
 #Use a list comprehension to concatenate the synthesized segments:
 # y = numpy.concatenate([
 #     estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr)
+
+
+
 #     for i in range(len(onset_boundaries)-1)
 # ])
 n = []
 for i in range(len(onset_boundaries)-1):
     n.append(estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr))
-# length = 0
-# if len(n) <= len(music_map['samesame']):
-#     length = len(n)
-# else:
-#     length = len(music_map['samesame'])
-#
-# print( '-----diff-------')
-# sum = 0
-# for i in range (length):
-#     diff = abs(music_map['samesame'][i] - n[i])
-#     print diff
-#     sum += diff
-#
-# print('avg of sum=?')
-# print sum/length
+
+length = len(music_map['samesame'])
+if len(n) <= len(music_map['samesame']):
+    length = len(n)
+
+print( '-----diff-------')
+sum = 0
+for i in range (length):
+    diff = abs(music_map['samesame'][i] - n[i])
+    if diff > 100:
+        print diff
+        diff = 0
+    # print diff
+    sum += diff
+
+print('avg of sum=?')
+print sum/length
 
 
 #Play the synthesized transcription.
