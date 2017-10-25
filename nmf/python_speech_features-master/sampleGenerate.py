@@ -21,13 +21,17 @@ music_map = {
 # pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
 # filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
-filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/butterfly.wav'
+filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/same_complete.m4a'
 
-yt, sr = librosa.load(filename, sr=22050, mono=True)
+yt, sr0 = librosa.load(filename, sr=22050, mono=True)
 
-x, idx = librosa.effects.trim(yt, top_db=10)
-print(librosa.get_duration(yt), librosa.get_duration(x))
+x0, idx = librosa.effects.trim(yt, top_db=10)
+print(librosa.get_duration(yt), librosa.get_duration(x0))
 
+filename2 = filename + '_2'
+librosa.output.write_wav(filename2, y=x0, sr=sr0, norm=True)
+
+x, sr = librosa.load(filename2, sr=22050, mono=True)
 x = x / numpy.max(numpy.abs(x))
 
 # mean_value = numpy.mean(abs(fft_values))
@@ -128,7 +132,7 @@ y = numpy.concatenate([
 
 #Play the synthesized transcription.
 # ipd.Audio(y, rate=sr, autoplay=True)
-librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/oldbutter.wav', y, sr)
+librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/new_same2.wav', y, sr)
 
 
 # # test 2

@@ -7,6 +7,21 @@ import numpy, scipy, IPython.display as ipd, matplotlib.pyplot as plt
 import librosa, librosa.display
 plt.rcParams['figure.figsize'] = (14, 5)
 
+song = sys.argv[2]
+
+music_map = {
+    'samesame': [261, 329, 391, 261, 329, 391, 440, 440, 440, 391, 349, 349, 349, 329, 329, 329, 293, 293, 293, 261, 261, 329, 391, 261, 329, 391, 440, 440, 440, 391, 349, 349, 349, 329, 329, 329, 293, 293, 293, 261],
+    'butterfly': [frequency[5], frequency[3], frequency[3], frequency[4], frequency[2], frequency[2],
+                 frequency[1], frequency[2], frequency[3], frequency[4], frequency[5], frequency[5],
+                 frequency[5], frequency[5], frequency[3], frequency[3], frequency[3], frequency[4],
+                 frequency[2], frequency[2], frequency[1], frequency[3], frequency[5], frequency[5],
+                 frequency[3], frequency[3], frequency[3], frequency[2], frequency[2], frequency[2],
+                 frequency[2], frequency[2], frequency[3], frequency[4], frequency[3], frequency[3],
+                 frequency[3], frequency[3], frequency[3], frequency[4], frequency[5], frequency[5],
+                 frequency[3], frequency[3], frequency[4], frequency[2], frequency[2], frequency[1],
+                 frequency[3], frequency[5], frequency[5], frequency[3], frequency[3], frequency[3]]
+}
+
 #Load an audio file.
 filename = sys.argv[1]
 x, sr = librosa.load(filename)

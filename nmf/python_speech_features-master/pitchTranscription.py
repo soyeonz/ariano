@@ -30,19 +30,17 @@ music_map = {
 # pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
 # filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
-filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/samesame.mp4'
+filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/butterfly2.m4a'
 
 yt, sr = librosa.load(filename, sr=22050, mono=True)
-librosa.
 
 x, idx = librosa.effects.trim(yt, top_db=10)
 print(librosa.get_duration(yt), librosa.get_duration(x))
-#
-# def pcen(E, alpha=0.98, delta=2, r=0.5, s=0.025, eps=1e-6):
-#     M = scipy.signal.lfilter([s], [1, s - 1], E)
-#     smooth = (eps + M)**(-alpha)
-#     return (E * smooth + delta)**r - delta**r
 
+# filename2 = filename + '_2'
+# librosa.output.write_wav(filename2, y=x0, sr=sr0, norm=True)
+#
+# x, sr = librosa.load(filename2, sr=22050, mono=True)
 x = x / numpy.max(numpy.abs(x))
 
 #Display the CQT of the signal.
@@ -129,19 +127,28 @@ n = []
 for i in range(len(onset_boundaries)-1):
     n.append(estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr))
 
-length = len(music_map['samesame'])
-if len(n) <= len(music_map['samesame']):
+length = len(music_map['butterfly'])
+if len(n) <= len(music_map['butterfly']):
     length = len(n)
 
 print( '-----diff-------')
 sum = 0
-for i in range (length):
-    diff = abs(music_map['samesame'][i] - n[i])
-    if diff > 100:
+nidx = 0
+for i in range (length - 1):
+    if i > 0 and nidx < len(n) - 3:
+        diff1 = abs(music_map['butterfly'][i] - music_map['butterfly'][i+1])
+        diff2 = abs(n[nidx] - n[nidx+1])
+        diff = abs(diff1 - diff2)
         print diff
-        diff = 0
-    # print diff
-    sum += diff
+        if diff > 20:
+
+            tt = abs(n[nidx+1] - n[nidx+2])
+            if abs(tt - diff1) < 20:
+                nidx += 1
+            diff = 0
+
+        sum += diff
+    nidx += 1
 
 print('avg of sum=?')
 print sum/length
