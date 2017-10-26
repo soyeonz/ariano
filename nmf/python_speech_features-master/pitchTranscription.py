@@ -115,8 +115,8 @@ def pitchTranscription():
     # ])
 
     #Play the synthesized transcription.
-    ipd.Audio(n, rate=sr, autoplay=True)
-    librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/new_tutorial.wav', n, sr)
+    # ipd.Audio(n, rate=sr, autoplay=True)
+    # librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/new_tutorial.wav', n, sr)
 
 
     # test 2
