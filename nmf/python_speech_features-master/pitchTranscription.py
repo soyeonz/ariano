@@ -30,17 +30,18 @@ music_map = {
 # pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
 # filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
-filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/butterfly2.m4a'
+filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/same_222.m4a'
 
-yt, sr = librosa.load(filename, sr=22050, mono=True)
+yt, sr0 = librosa.load(filename, sr=22050, mono=True)
+
+filename2 = filename
+librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/same_2223.m4a', y=yt, sr=sr0, norm=True)
 
 x, idx = librosa.effects.trim(yt, top_db=10)
 print(librosa.get_duration(yt), librosa.get_duration(x))
 
-# filename2 = filename + '_2'
-# librosa.output.write_wav(filename2, y=x0, sr=sr0, norm=True)
-#
-# x, sr = librosa.load(filename2, sr=22050, mono=True)
+
+x, sr = librosa.load(filename2, sr=22050, mono=True)
 x = x / numpy.max(numpy.abs(x))
 
 #Display the CQT of the signal.
@@ -127,8 +128,9 @@ n = []
 for i in range(len(onset_boundaries)-1):
     n.append(estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr))
 
-length = len(music_map['butterfly'])
-if len(n) <= len(music_map['butterfly']):
+print n
+length = len(music_map['samesame'])
+if len(n) <= len(music_map['samesame']):
     length = len(n)
 
 print( '-----diff-------')
@@ -136,12 +138,12 @@ sum = 0
 nidx = 0
 for i in range (length - 1):
     if i > 0 and nidx < len(n) - 3:
-        diff1 = abs(music_map['butterfly'][i] - music_map['butterfly'][i+1])
+        diff1 = abs(music_map['samesame'][i] - music_map['samesame'][i+1])
         diff2 = abs(n[nidx] - n[nidx+1])
         diff = abs(diff1 - diff2)
-        print diff
-        if diff > 20:
 
+        if diff > 20:
+            print diff
             tt = abs(n[nidx+1] - n[nidx+2])
             if abs(tt - diff1) < 20:
                 nidx += 1

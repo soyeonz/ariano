@@ -21,7 +21,7 @@ music_map = {
 # pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
 # filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
-filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/same_complete.m4a'
+filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/same_222.m4a'
 
 yt, sr0 = librosa.load(filename, sr=22050, mono=True)
 
@@ -132,7 +132,7 @@ y = numpy.concatenate([
 
 #Play the synthesized transcription.
 # ipd.Audio(y, rate=sr, autoplay=True)
-librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/new_same2.wav', y, sr)
+librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/new_same222.wav', y, sr)
 
 
 # # test 2
