@@ -19,7 +19,7 @@ router.post('/', upload.single('music'), (req, res) => {
             pythonPath: '',
             pythonOptions: ['-u'],
             scriptPath: '',
-            args: [req.file.path]
+            args: [req.file.path, req.body.song]
         };
         python.run('./pylib/pitch.py', option, function (err, result) {
             if (err) {

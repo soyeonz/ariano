@@ -23,13 +23,29 @@ music_map = {
 # filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
 filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/tutorial.m4a'
 
-yt, sr = librosa.load(filename)
+yt, sr0 = librosa.load(filename, sr=22050, mono=True)
 
-x, idx = librosa.effects.trim(yt, top_db=10)
-print(librosa.get_duration(yt), librosa.get_duration(x))
+x0, idx = librosa.effects.trim(yt, top_db=10)
+print(librosa.get_duration(yt), librosa.get_duration(x0))
 
+filename2 = filename + '_2'
+librosa.output.write_wav(filename2, y=x0, sr=sr0, norm=True)
+
+x, sr = librosa.load(filename2, sr=22050, mono=True)
+x = x / numpy.max(numpy.abs(x))
+
+# mean_value = numpy.mean(abs(fft_values))
+# threshold = 1.1*mean_value
+#
+# fft_values[abs(fft_values) < threshold] = 0
+#
+# filteredSample = numpy.fft.ifft(fft_values)
+#
+# x= filteredSample
 #Display the CQT of the signal.
 bins_per_octave = 36
+# cqt = librosa.cqt(x, sr=sr, n_bins=300, bins_per_octave=bins_per_octave)
+# log_cqt = librosa.logamplitude(cqt)
 chromagram = librosa.feature.chroma_cens(x, sr=sr, bins_per_octave=bins_per_octave)
 log_cqt = librosa.logamplitude(chromagram)
 
