@@ -12,8 +12,13 @@ const storage = multer.diskStorage({
     }
 });
 const upload = multer({storage : storage});
+
+
 router.post('/', upload.single('music'), (req, res) => {
     try {
+      if(!req.file.path || !req.body.song){
+        res.status(403).send({"message" : "Please input all of song, music."})
+      }else{
         var option = {
             mode: 'text',
             pythonPath: '/usr/bin/python',
@@ -23,19 +28,19 @@ router.post('/', upload.single('music'), (req, res) => {
         };
         python.run('pitch.py', option, function (err, result) {
             if (err) {
-                console.log('Something Gone Wrong!', err);
+              console.log('Something Gone Wrong!', err);
+              res.status(500).send({"message": "syntax err" });
+            } else{
+              console.log('result is : ', result);
+              res.status(200).send({ "message" : "success", "result" : parseInt(result[0]) });
             }
-            console.log('result is : ', result);
-            res.status(200).send({ result: "success" });
         });
+      }
     } catch (err) {
         console.log('err msg: ', err);
-        res.status(500).send({ message: "syntax err" });
+        res.status(500).send({ "message": "syntax err" });
     } finally {
-
     }
-
-
 });
 
 
@@ -53,7 +58,7 @@ router.all('/test', (req, res)=>{
                 console.log('Something Gone Wrong!', err);
             }
             console.log('result is : ', result);
-            res.status(200).send({ result: result });
+            res.status(200).send({ "result": "test" });
         });
     } catch(err){
         console.log('err msg: ', err);

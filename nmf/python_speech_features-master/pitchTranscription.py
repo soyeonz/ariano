@@ -30,18 +30,18 @@ music_map = {
 # pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
 # filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
-filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/same_222.m4a'
+filename = '/Users/bttb66/Documents/ariano/ariano/Server/ariTest/myfile.wav'
 
-yt, sr0 = librosa.load(filename, sr=22050, mono=True)
+yt, sr = librosa.load(filename, sr=22050, mono=True)
 
-filename2 = filename
-librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/same_2223.m4a', y=yt, sr=sr0, norm=True)
+# filename2 = filename
+# librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/same_2223.m4a', y=yt, sr=sr0, norm=True)
 
 x, idx = librosa.effects.trim(yt, top_db=10)
 print(librosa.get_duration(yt), librosa.get_duration(x))
 
 
-x, sr = librosa.load(filename2, sr=22050, mono=True)
+x, sr = librosa.load(filename, sr=22050, mono=True)
 x = x / numpy.max(numpy.abs(x))
 
 #Display the CQT of the signal.
@@ -129,31 +129,49 @@ for i in range(len(onset_boundaries)-1):
     n.append(estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr))
 
 print n
-length = len(music_map['samesame'])
-if len(n) <= len(music_map['samesame']):
-    length = len(n)
+# length = len(music_map['samesame'])
+# if len(n) <= len(music_map['samesame']):
+#     length = len(n)
 
 print( '-----diff-------')
 sum = 0
 nidx = 0
-for i in range (length - 1):
-    if i > 0 and nidx < len(n) - 3:
-        diff1 = abs(music_map['samesame'][i] - music_map['samesame'][i+1])
-        diff2 = abs(n[nidx] - n[nidx+1])
-        diff = abs(diff1 - diff2)
+# for i in range (length - 1):
+#     if i > 0 and nidx < len(n) - 3:
+#         diff1 = abs(music_map['samesame'][i] - music_map['samesame'][i+1])
+#         diff2 = abs(n[nidx] - n[nidx+1])
+#         diff = abs(diff1 - diff2)
+#
+#         if diff > 20:
+#             print diff
+#             tt = abs(n[nidx+1] - n[nidx+2])
+#             if abs(tt - diff1) < 20:
+#                 nidx += 1
+#             diff = 0
+#
+#         sum += diff
+#     nidx += 1
+def lcs(a, b):
+    prev = [0]*len(a)
+    for i, r in enumerate(a):
+        current = []
+        for j,c in enumerate(b):
+            if abs(r - c) <= 10:
+                e = prev[j-1]+1 if i* j > 0 else 1
+            else:
+                e = max(prev[j] if i > 0 else 0, current[-1] if j > 0 else 0)
+            current.append(e)
+        prev = current
+    return current[-1]
 
-        if diff > 20:
-            print diff
-            tt = abs(n[nidx+1] - n[nidx+2])
-            if abs(tt - diff1) < 20:
-                nidx += 1
-            diff = 0
 
-        sum += diff
-    nidx += 1
+lcs_ret = lcs(n, music_map['samesame'])
+print 'lcs_ret', lcs_ret
 
-print('avg of sum=?')
-print sum/length
+score = lcs_ret * 100 / len(music_map['samesame'])
+print 'score : ', score
+# print('avg of sum=?')
+# print sum/length
 
 
 #Play the synthesized transcription.
