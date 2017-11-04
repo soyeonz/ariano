@@ -30,7 +30,7 @@ music_map = {
 # pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
 # filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
-filename = '/Users/bttb66/Documents/ariano/ariano/Server/ariTest/myfile.wav'
+filename = '/Users/bttb66/Documents/ariano/ariano/Server/ariTest/routes/music-1509795677582.m4a'
 
 yt, sr = librosa.load(filename, sr=22050, mono=True)
 
@@ -164,6 +164,7 @@ def lcs(a, b):
         prev = current
     return current[-1]
 
+print n
 
 lcs_ret = lcs(n, music_map['samesame'])
 print 'lcs_ret', lcs_ret
