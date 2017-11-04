@@ -21,19 +21,21 @@ music_map = {
 # pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
 # filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
-filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/same_222.m4a'
+filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/same_222.m4a'
 
-yt, sr0 = librosa.load(filename, sr=22050, mono=True)
+# yt, sr0 = librosa.load(filename, sr=22050, mono=True)
+#
+# x0, idx = librosa.effects.trim(yt, top_db=10)
+# print(librosa.get_duration(yt), librosa.get_duration(x0))
+#
+# filename2 = filename + '_2'
+# librosa.output.write_wav(filename2, y=x0, sr=sr0, norm=True)
+#
+# x, sr = librosa.load(filename2, sr=22050, mono=True)
+# x = x / numpy.max(numpy.abs(x))
 
-x0, idx = librosa.effects.trim(yt, top_db=10)
-print(librosa.get_duration(yt), librosa.get_duration(x0))
-
-filename2 = filename + '_2'
-librosa.output.write_wav(filename2, y=x0, sr=sr0, norm=True)
-
-x, sr = librosa.load(filename2, sr=22050, mono=True)
-x = x / numpy.max(numpy.abs(x))
-
+y, sr = librosa.load(filename, sr=22050, mono=True)
+x, idx = librosa.effects.trim(y, top_db=10)
 # mean_value = numpy.mean(abs(fft_values))
 # threshold = 1.1*mean_value
 #
@@ -73,7 +75,7 @@ onset_samples = librosa.onset.onset_detect(x,
                                            wait=0)
 
 #Let's pad the onsets with the beginning and end of the signal.
-onset_boundaries = numpy.concatenate([[0], onset_samples, [len(x)]])
+onset_boundaries = numpy.concatenate([[0],onset_samples, [len(x)]])
 # print onset_boundaries
 
 #Convert the onsets to units of seconds:
@@ -81,8 +83,8 @@ onset_times = librosa.samples_to_time(onset_boundaries, sr=sr)
 # print onset_times
 
 #Display the results of the onset detection:
-librosa.display.waveplot(x, sr=sr)
-plt.vlines(onset_times, -1, 1, color='r')
+# librosa.display.waveplot(x, sr=sr)
+# plt.vlines(onset_times, -1, 1, color='r')
 
 #Step 2: Estimate Pitch
 #Estimate pitch using the autocorrelation method:
@@ -124,15 +126,15 @@ y = numpy.concatenate([
 # for i in range(len(onset_boundaries)-1):
 #     n.append(estimate_pitch_and_generate_sine(x, onset_boundaries, i, sr=sr))
 #
-
-# print "len n"
-# print len(n)
-# print "array n"
+#
+# # print "len n"
+# # print len(n)
+# print "array m"
 # print n
 
 #Play the synthesized transcription.
-# ipd.Audio(y, rate=sr, autoplay=True)
-librosa.output.write_wav('/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/new_same222.wav', y, sr)
+ipd.Audio(y, rate=sr, autoplay=True)
+librosa.output.write_wav('/Users/imsoyeon/ariano/nmf/python_speech_features-master/new_same222.wav', y, sr)
 
 
 # # test 2
