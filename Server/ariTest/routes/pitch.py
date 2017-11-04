@@ -23,7 +23,21 @@ music_map = {
                  frequency[2], frequency[2], frequency[3], frequency[4], frequency[3], frequency[3],
                  frequency[3], frequency[3], frequency[3], frequency[4], frequency[5], frequency[5],
                  frequency[3], frequency[3], frequency[4], frequency[2], frequency[2], frequency[1],
-                 frequency[3], frequency[5], frequency[5], frequency[3], frequency[3], frequency[3]]
+                 frequency[3], frequency[5], frequency[5], frequency[3], frequency[3], frequency[3]],
+    'tutorial': [frequency[1], frequency[2], frequency[3], frequency[4], frequency[5], frequency[6], 
+                 frequency[7], frequency[8], frequency[7], frequency[6], frequency[5], frequency[4], 
+                 frequency[3], frequency[2], frequency[1], frequency[1], frequency[2], frequency[3], 
+                 frequency[4], frequency[5], frequency[6], frequency[7], frequency[8], frequency[7], 
+                 frequency[6], frequency[5], frequency[4], frequency[3], frequency[2], frequency[1]],
+    'jinglebell': [frequency[3], frequency[3], frequency[3], frequency[3], frequency[3], frequency[3], 
+                   frequency[3], frequency[5], frequency[1], frequency[2], frequency[3], frequency[4],
+                   frequency[4], frequency[4], frequency[4], frequency[4], frequency[3], frequency[3],
+                   frequency[3], frequency[3], frequency[2], frequency[2], frequency[3], frequency[2],
+                   frequency[5], frequency[3], frequency[3], frequency[3], frequency[3], frequency[3], 
+                   frequency[3],frequency[3], frequency[5], frequency[1], frequency[2], frequency[3], 
+                   frequency[4],frequency[4], frequency[4], frequency[4], frequency[4], frequency[3], 
+                   frequency[3], frequency[3], frequency[5], frequency[5], frequency[4], frequency[2],
+                   frequency[1]]
 }
 
 #Load an audio file.
