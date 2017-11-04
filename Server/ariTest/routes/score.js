@@ -16,6 +16,7 @@ const upload = multer({storage : storage});
 
 router.post('/', upload.single('music'), (req, res) => {
     try {
+	console.log('score 시작');
       if(!req.file.path || !req.body.song){
         res.status(403).send({"message" : "Please input all of song, music."})
       }else{
@@ -26,6 +27,7 @@ router.post('/', upload.single('music'), (req, res) => {
             scriptPath: __dirname,
             args: [req.file.path, req.body.song]
         };
+	console.log('score 들어옴',req.file.path);
         python.run('pitch.py', option, function (err, result) {
             if (err) {
               console.log('Something Gone Wrong!', err);
@@ -44,7 +46,7 @@ router.post('/', upload.single('music'), (req, res) => {
 });
 
 
-router.all('/test', (req, res)=>{
+router.get('/test', (req, res)=>{
     try{
         var option = {
             mode: 'text',
