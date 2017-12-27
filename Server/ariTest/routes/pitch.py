@@ -12,7 +12,7 @@ plt.rcParams['figure.figsize'] = (14, 5)
 filename = sys.argv[1]
 song = sys.argv[2]
 
-frequency = [0, 261.6256, 293.6648, 329.6276, 349.2282, 391.9954, 440.0000, 493.8833]
+frequency = [0, 261, 293, 329, 349, 391, 440, 493, 523]
 music_map = {
     'samesame': [261, 329, 391, 261, 329, 391, 440, 440, 440, 391, 349, 349, 349, 329, 329, 329, 293, 293, 293, 261, 261, 329, 391, 261, 329, 391, 440, 440, 440, 391, 349, 349, 349, 329, 329, 329, 293, 293, 293, 261],
     'butterfly': [frequency[5], frequency[3], frequency[3], frequency[4], frequency[2], frequency[2],
@@ -49,6 +49,8 @@ with wav_file_pydub.export('audio.ogg', format='ogg', codec='libvorbis', bitrate
     wav_file.close()
 
 x, sr = librosa.load('audio.ogg')
+x = x / numpy.max(numpy.abs(x))
+
 #
 # #Play the audio file.
 # ipd.Audio(x, rate = sr, autoplay = True)
@@ -56,8 +58,8 @@ x, sr = librosa.load('audio.ogg')
 
 #Display the CQT of the signal.
 bins_per_octave = 36
-cqt = librosa.cqt(x, sr = sr, n_bins = 300, bins_per_octave = bins_per_octave)
-log_cqt = librosa.logamplitude(cqt)
+#cqt = librosa.cqt(x, sr = sr, n_bins = 300, bins_per_octave = bins_per_octave)
+#log_cqt = librosa.logamplitude(cqt)
 
 # print(cqt.shape)
 
@@ -66,9 +68,9 @@ log_cqt = librosa.logamplitude(cqt)
 
 #Step 1: Detect Onsets
 hop_length = 100
-onset_env = librosa.onset.onset_strength(x, sr = sr, hop_length = hop_length)
-plt.plot(onset_env)
-plt.xlim(0, len(onset_env))
+#onset_env = librosa.onset.onset_strength(x, sr = sr, hop_length = hop_length)
+#plt.plot(onset_env)
+#plt.xlim(0, len(onset_env))
 
 #Next, we try to detect onsets.For more details, see librosa.onset.onset_detect and librosa.util.peak_pick.
 onset_samples = librosa.onset.onset_detect(x,
@@ -140,7 +142,7 @@ def lcs(a, b):
     return current[-1]
 
 
-lcs_ret = lcs(n, music_map['samesame'])
+lcs_ret = lcs(n, music_map[song])
 
-score = lcs_ret * 100 / len(music_map['samesame'])
+score = lcs_ret * 100 / len(music_map[song])
 print score

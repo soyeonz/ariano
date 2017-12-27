@@ -4,11 +4,11 @@ import seaborn
 import numpy, scipy, IPython.display as ipd, matplotlib.pyplot as plt
 import librosa, librosa.display
 from time import time
-from concurrent.futures import ProcessPoolExecutor
+# from concurrent.futures import ProcessPoolExecutor
 # from jitpy import setup
 # setup('<path-to-pypy-home>')
 # from jitpy.wrapper import jittify
-start = time()
+# start = time()
 plt.rcParams['figure.figsize'] = (14, 5)
 
 # start_time = time.time()
@@ -29,10 +29,10 @@ music_map = {
 # pool = ProcessPoolExecutor(max_workers=2)
 #Load an audio file.
 
-# filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/butterfly2.m4a'
-# filename = '/Users/bttb66/Documents/ariano/ariano/Server/ariTest/routes/music-1509795677582.m4a'
+# filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/same_new_same.m4a'
+filename = '/Users/bttb66/Documents/ariano/ariano/nmf/python_speech_features-master/same_wrong_same.m4a'
 
-filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/same_complete.m4a'
+# filename = '/Users/imsoyeon/ariano/nmf/python_speech_features-master/same_complete.m4a'
 # filename = '/Users/bttb66/Documents/ariano/ariano/Server/ariTest/myfile.wav'
 
 yt, sr = librosa.load(filename, sr=22050, mono=True)
